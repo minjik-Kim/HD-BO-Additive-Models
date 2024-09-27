@@ -3,8 +3,10 @@
 import GPy
 import numpy as np
 
-from ..utilities.utilities import subset_select, subset_select_for_learning
-from .base import BaseModel
+# from ..utilities.utilities import subset_select, subset_select_for_learning
+# from .base import BaseModel
+from hdbo.boattack.utilities.utilities import subset_select, subset_select_for_learning
+from hdbo.boattack.models.base import BaseModel
 
 
 def split(a, n):
